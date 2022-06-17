@@ -25,7 +25,7 @@ void *factorial_(void *args)
 int main(int argc , char **argv){
     int conta=0;
     char lectura[10000];
-    printf("Ingresar valores para calcular factorial:/n ");
+    printf("Ingresar valores para calcular factorial: ");
 	scanf("%[^\n]%*c",lectura);
 	char *p;
 	p =lectura;
